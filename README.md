@@ -11,9 +11,9 @@ This repository is built as a CI/CD learning demo of Dicoding's Becoming Backend
 #### 3. `npm install` to install the all dependency needed
 
 ### Configuration
-#### 5. Create a PostgreSQL database
-#### 4. Change user, password, & database value in config/database/test.json file based on yours
-#### 6. Change user, password, & database value in .env file based on yours
+#### 4. Create two PostgreSQL databases for production & testing
+#### 5. Change   `db_user`, `db_password`, & `db_name` (for testing database only) value in config/database/test.json file based on yours
+#### 6. Change   `db_user`, `db_password`, & `db_name` value in .env file based on yours
 
 ### Run the App
 #### 7. `npm run migrate:test up` to migrate/create the database table
